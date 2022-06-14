@@ -65,11 +65,11 @@ Now it is all done and it is possible to use docker
 Use the set of the following commands to make and launch the containers:
 Build the container:
 
-    docker build -t yourdockerlogin/yourdockerfolder:v.X.X .
+    docker build -t sokeet513/gsom_predictor:v.1.0 .
     
 Launch the container:
 
-    docker run --network host -d yourdockerlogin/yourdockerfolder:v.X.X
+    docker run --network host -d sokeet513/gsom_predictor:v.1.0
 Now the container is running!
 You can use the same search query as before.
 
@@ -91,10 +91,10 @@ To stop the container you need to use the callsign of this container and write i
   Here you just need to install docker and use a command to pull the image:
   
 
-    git pull yourdockerlogin/yourdockerfolder:v.X.X
+    git pull sokeet513/gsom_predictor:v.1.0
 Then just use **docker run**  again:
 
-    docker run --network host -d yourdockerlogin/yourdockerfolder:v.X.X
+    docker run --network host -d sokeet513/gsom_predictor:v.1.0
 And make a needed search query using different VM IP-address
 
  
